@@ -1,0 +1,5 @@
+/.idea/
+/venv/
+/models/de-DE/
+/plugins/language_tool_correction/language_tool/
+/plugins/vosk_alternatives/model/

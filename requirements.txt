@@ -1,0 +1,6 @@
+PySide2
+deepspeech
+webrtcvad-wheels
+pydub
+moviepy
+qtmodern
