@@ -17,8 +17,9 @@ Through various plug-ins, the editor tries to reduce the effort required to corr
 ### Installation and usage
 
 0. Read the [manual](assets/docs/manual.pdf) 
-1. Install [Python 3.8](https://www.python.org/downloads/)
-2. Install the requirements 
+1. Clone this repository
+2. Install [Python 3.8](https://www.python.org/downloads/)
+3. Install the requirements 
    ```
    pip install -r requirements.txt
    ```
