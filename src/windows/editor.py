@@ -10,6 +10,7 @@ from src.windows.settings import SettingsWindow
 from src.windows.licence import LicenceWindow
 from src.util.time_util import create_time_string
 from src.util.time_util import convert_ms
+from src.util.highlighted_qplaintextedit import HighlightedQTextEdit
 from datetime import datetime
 import os
 import src.util.const as c
@@ -55,7 +56,7 @@ class EditorWidget(QWidget):
         self.font.setPointSize(self.settings.value(c.FONT_SIZE, defaultValue=16, type=int))
 
         # the text widget itself
-        self.text = QPlainTextEdit()
+        self.text = HighlightedQTextEdit()
         self.text.setFont(self.font)
         self.text.textChanged.connect(self.on_text_changed)
         self.text.setFocusPolicy(Qt.StrongFocus)
